@@ -31,7 +31,12 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel'
-      }
+      },
+      {
+        test: /\.ts$/,
+        loaders: ['awesome-typescript-loader?' + atlOptions, 'angular2-template-loader', '@angularclass/hmr-loader'],
+        exclude: [isTest ? /\.(e2e)\.ts$/ : /\.(spec|e2e)\.ts$/, /node_modules\/(?!(ng2-.+))/]
+      },
     ]
   },
   postcss: [
