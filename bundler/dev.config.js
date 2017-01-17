@@ -18,7 +18,6 @@ module.exports = Object.assign(
     entry: Object.assign(
       {
         index: [
-          'react-hot-loader/patch',
           `webpack-dev-server/client?${hotAssetsServer.url}`,
           'webpack/hot/only-dev-server'
         ].concat(config.entry.index)
