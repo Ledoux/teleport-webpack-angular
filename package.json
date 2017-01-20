@@ -1,10 +1,6 @@
 {
   "dependencies": {
-    "angular2": "2.0.0-beta.10",
-    "systemjs": "0.19.22",
-    "es6-promise": "^3.0.2",
-    "es6-shim": "^0.33.3",
-    "reflect-metadata": "0.1.2"
+    "angular": "^1.5.0"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.1",
@@ -17,9 +13,7 @@
     "sass-loader": "^3.1.2",
 		"style-loader": "^0.13.0",
     "webpack": "^1.13.0",
-    "webpack-dev-server": "^1.14.1",
-    "awesome-typescript-loader": "^3.0.0-beta.17",
-    "angular2-template-loader": "^0.6.0"
+    "webpack-dev-server": "^1.14.1"
   },
   "name": "teleport-webpack-angular",
   "version": "0.0.3"
