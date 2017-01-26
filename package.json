@@ -1,4 +1,7 @@
 {
+  "author": "The Snips Tooling Team",
+  "license": "MIT",
+  "description": "Teleport frontend template to integrate a bundled angular app",
   "dependencies": {
     "angular": "^1.5.0"
   },
