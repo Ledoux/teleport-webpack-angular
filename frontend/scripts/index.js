@@ -1,3 +1,3 @@
 import app from './angular/app.js'
 
-import '../styles/index.css';
+import '../styles/index.scss'
