@@ -1,7 +1,17 @@
 # Teleport webpack angular
 [![npm version](https://badge.fury.io/js/teleport-webpack-angular.svg)](https://badge.fury.io/js/teleport-webpack-angular)
 
-A [Teleport](https://github.com/snipsco/teleport) frontend template to integrate a bundled angular app.
+<table>
+  <td>
+    <img src="icon.png" alt="icon" title="made by @cecilesnips"/>
+  </td>
+  <td>
+    <img src="teleport-webpack-angular.png" alt="icon" title="made by @cecilesnips"/>
+  </td>
+  <td>
+    A <a href="https://github.com/snipsco/teleport"> Teleport </a> frontend template to integrate a bundled angular app.
+  </td>
+</table>
 
 ## How to use it
 Simply add it to the list of templates. For instance:
