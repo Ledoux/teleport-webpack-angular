@@ -1,4 +1,4 @@
-# Teleport webpack angular
+# teleport-webpack-angular
 [![npm version](https://badge.fury.io/js/teleport-webpack-angular.svg)](https://badge.fury.io/js/teleport-webpack-angular)
 
 <table>
