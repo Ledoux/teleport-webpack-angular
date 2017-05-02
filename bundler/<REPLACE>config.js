@@ -25,11 +25,12 @@ module.exports = {
       },
       {
         test: /\.s?css$/,
-        loader: 'style!css!postcss!sass',
-        exclude: /node_modules/
+        exclude: /node_modules/,
+        loader: 'style!css!postcss!sass'
       },
       {
         test: /\.js$/,
+        exclude: /node_modules/,
         loader: 'babel',
         exclude: /node_modules/,
         query: {
